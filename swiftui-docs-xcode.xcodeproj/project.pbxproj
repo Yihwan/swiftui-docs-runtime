@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA50D91F239F018B00C121CD /* TextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50D91E239F018B00C121CD /* TextFont.swift */; };
 		DA50D921239F03B300C121CD /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50D920239F03B300C121CD /* Playground.swift */; };
 		DA9C9CA6239305E800BD05D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C9CA5239305E800BD05D4 /* AppDelegate.swift */; };
 		DA9C9CA8239305E800BD05D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C9CA7239305E800BD05D4 /* SceneDelegate.swift */; };
@@ -22,9 +21,8 @@
 		DAB4F30B23A07F0200BA522C /* StacksVStackHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4F30A23A07F0200BA522C /* StacksVStackHStack.swift */; };
 		DAB4F30D23A0878E00BA522C /* StacksSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4F30C23A0878E00BA522C /* StacksSpacer.swift */; };
 		DAB4F30F23A0941900BA522C /* StacksZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4F30E23A0941900BA522C /* StacksZStack.swift */; };
-		DAE2D55C239DA1090077A1D8 /* Text-decorationModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2D55B239DA1090077A1D8 /* Text-decorationModifiers.swift */; };
-		DAE2D55E239DA9780077A1D8 /* Text-fontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2D55D239DA9780077A1D8 /* Text-fontWeight.swift */; };
-		DAE2D564239DBD3B0077A1D8 /* TextBaselineOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2D563239DBD3B0077A1D8 /* TextBaselineOffset.swift */; };
+		DAB7DCA723A3169F00FA440D /* FormToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DCA623A3169F00FA440D /* FormToggle.swift */; };
+		DAB7DCAB23A3306C00FA440D /* FormSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DCAA23A3306C00FA440D /* FormSlider.swift */; };
 		DAE2D566239DBEC00077A1D8 /* TextTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2D565239DBEC00077A1D8 /* TextTracking.swift */; };
 		DAE2D568239DC0980077A1D8 /* TextKerning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2D567239DC0980077A1D8 /* TextKerning.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +66,8 @@
 		DAB4F30A23A07F0200BA522C /* StacksVStackHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksVStackHStack.swift; sourceTree = "<group>"; };
 		DAB4F30C23A0878E00BA522C /* StacksSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksSpacer.swift; sourceTree = "<group>"; };
 		DAB4F30E23A0941900BA522C /* StacksZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksZStack.swift; sourceTree = "<group>"; };
+		DAB7DCA623A3169F00FA440D /* FormToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormToggle.swift; sourceTree = "<group>"; };
+		DAB7DCAA23A3306C00FA440D /* FormSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSlider.swift; sourceTree = SOURCE_ROOT; };
 		DAE2D55B239DA1090077A1D8 /* Text-decorationModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text-decorationModifiers.swift"; sourceTree = "<group>"; };
 		DAE2D55D239DA9780077A1D8 /* Text-fontWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text-fontWeight.swift"; sourceTree = "<group>"; };
 		DAE2D563239DBD3B0077A1D8 /* TextBaselineOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBaselineOffset.swift; sourceTree = SOURCE_ROOT; };
@@ -123,7 +123,9 @@
 		DA9C9CA4239305E800BD05D4 /* swiftui-docs-xcode */ = {
 			isa = PBXGroup;
 			children = (
+				DAB7DCAA23A3306C00FA440D /* FormSlider.swift */,
 				DA50D91E239F018B00C121CD /* TextFont.swift */,
+				DAB7DCA623A3169F00FA440D /* FormToggle.swift */,
 				DAE2D563239DBD3B0077A1D8 /* TextBaselineOffset.swift */,
 				DAE2D565239DBEC00077A1D8 /* TextTracking.swift */,
 				DA50D920239F03B300C121CD /* Playground.swift */,
@@ -304,18 +306,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB4F30D23A0878E00BA522C /* StacksSpacer.swift in Sources */,
-				DAE2D564239DBD3B0077A1D8 /* TextBaselineOffset.swift in Sources */,
 				DA9C9CA6239305E800BD05D4 /* AppDelegate.swift in Sources */,
-				DAE2D55C239DA1090077A1D8 /* Text-decorationModifiers.swift in Sources */,
-				DA50D91F239F018B00C121CD /* TextFont.swift in Sources */,
 				DAB4F30B23A07F0200BA522C /* StacksVStackHStack.swift in Sources */,
 				DA9C9CA8239305E800BD05D4 /* SceneDelegate.swift in Sources */,
 				DAB4F307239F097D00BA522C /* ImageResizable.swift in Sources */,
+				DAB7DCA723A3169F00FA440D /* FormToggle.swift in Sources */,
+				DAB7DCAB23A3306C00FA440D /* FormSlider.swift in Sources */,
 				DA9C9CAA239305E800BD05D4 /* ContentView.swift in Sources */,
 				DAB4F309239F184500BA522C /* ImageAspectRatio.swift in Sources */,
 				DAB4F30F23A0941900BA522C /* StacksZStack.swift in Sources */,
 				DA50D921239F03B300C121CD /* Playground.swift in Sources */,
-				DAE2D55E239DA9780077A1D8 /* Text-fontWeight.swift in Sources */,
 				DAE2D566239DBEC00077A1D8 /* TextTracking.swift in Sources */,
 				DAE2D568239DC0980077A1D8 /* TextKerning.swift in Sources */,
 			);

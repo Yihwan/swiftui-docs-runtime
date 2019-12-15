@@ -1,14 +1,14 @@
 //
-//  Playground.swift
+//  Form-Slider.swift
 //  swiftui-docs-xcode
 //
-//  Created by Yihwan Kim on 12/9/19.
+//  Created by Yihwan Kim on 12/12/19.
 //  Copyright © 2019 Yihwan Kim. All rights reserved.
 //
 
 import SwiftUI
 
-struct Playground: View {
+struct Form_Slider: View {
     @State private var sliderValue: Double = 0
     
     var body: some View {
@@ -19,8 +19,8 @@ struct Playground: View {
     }
 }
 
-struct Playground_Previews: PreviewProvider {
+struct Form_Slider_Previews: PreviewProvider {
     static var previews: some View {
-        Playground()
+        Form_Slider()
     }
 }

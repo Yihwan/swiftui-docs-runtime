@@ -1,14 +1,14 @@
 //
-//  Playground.swift
+//  FormPicker2.swift
 //  swiftui-docs-xcode
 //
-//  Created by Yihwan Kim on 12/9/19.
+//  Created by Yihwan Kim on 12/16/19.
 //  Copyright © 2019 Yihwan Kim. All rights reserved.
 //
 
 import SwiftUI
 
-struct Playground: View {
+struct FormPicker2: View {
     @State private var selectedIdx = 1
     @State private var options = ["Option 1", "Option 2", "Option 3"]
 
@@ -20,13 +20,13 @@ struct Playground: View {
                         Text(self.options[$0])
                     }
                 }.pickerStyle(SegmentedPickerStyle())
-            }           
+            }
         }
     }
 }
 
-struct Playground_Previews: PreviewProvider {
+struct FormPicker2_Previews: PreviewProvider {
     static var previews: some View {
-        Playground()
+        FormPicker2()
     }
 }

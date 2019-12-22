@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2B9584523AED49B006AE948 /* FormSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9584423AED49B006AE948 /* FormSecureField.swift */; };
+		D2B9584723AEED74006AE948 /* FormStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9584623AEED74006AE948 /* FormStepper.swift */; };
 		DA50D921239F03B300C121CD /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50D920239F03B300C121CD /* Playground.swift */; };
 		DA9C9CA6239305E800BD05D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C9CA5239305E800BD05D4 /* AppDelegate.swift */; };
 		DA9C9CA8239305E800BD05D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C9CA7239305E800BD05D4 /* SceneDelegate.swift */; };
@@ -46,7 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA50D91E239F018B00C121CD /* TextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFont.swift; sourceTree = SOURCE_ROOT; };
+		D2B9584423AED49B006AE948 /* FormSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSecureField.swift; sourceTree = "<group>"; };
+		D2B9584623AEED74006AE948 /* FormStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormStepper.swift; sourceTree = "<group>"; };
 		DA50D920239F03B300C121CD /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 		DA9C9CA2239305E800BD05D4 /* swiftui-docs-xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-docs-xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9C9CA5239305E800BD05D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,12 +71,8 @@
 		DAB4F30C23A0878E00BA522C /* StacksSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksSpacer.swift; sourceTree = "<group>"; };
 		DAB4F30E23A0941900BA522C /* StacksZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksZStack.swift; sourceTree = "<group>"; };
 		DAB7DCA623A3169F00FA440D /* FormToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormToggle.swift; sourceTree = "<group>"; };
-		DAB7DCAA23A3306C00FA440D /* FormSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSlider.swift; sourceTree = SOURCE_ROOT; };
 		DABA6C5623A874D400324041 /* FormPicker1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPicker1.swift; sourceTree = "<group>"; };
 		DABA6C5823A8797400324041 /* FormPicker2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPicker2.swift; sourceTree = "<group>"; };
-		DAE2D55B239DA1090077A1D8 /* Text-decorationModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text-decorationModifiers.swift"; sourceTree = "<group>"; };
-		DAE2D55D239DA9780077A1D8 /* Text-fontWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text-fontWeight.swift"; sourceTree = "<group>"; };
-		DAE2D563239DBD3B0077A1D8 /* TextBaselineOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBaselineOffset.swift; sourceTree = SOURCE_ROOT; };
 		DAE2D565239DBEC00077A1D8 /* TextTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTracking.swift; sourceTree = "<group>"; };
 		DAE2D567239DC0980077A1D8 /* TextKerning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextKerning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,12 +125,11 @@
 		DA9C9CA4239305E800BD05D4 /* swiftui-docs-xcode */ = {
 			isa = PBXGroup;
 			children = (
-				DAB7DCAA23A3306C00FA440D /* FormSlider.swift */,
-				DA50D91E239F018B00C121CD /* TextFont.swift */,
+				D2B9584423AED49B006AE948 /* FormSecureField.swift */,
 				DAB7DCA623A3169F00FA440D /* FormToggle.swift */,
-				DAE2D563239DBD3B0077A1D8 /* TextBaselineOffset.swift */,
 				DAE2D565239DBEC00077A1D8 /* TextTracking.swift */,
 				DA50D920239F03B300C121CD /* Playground.swift */,
+				D2B9584623AEED74006AE948 /* FormStepper.swift */,
 				DABA6C5823A8797400324041 /* FormPicker2.swift */,
 				DABA6C5623A874D400324041 /* FormPicker1.swift */,
 				DAB4F30C23A0878E00BA522C /* StacksSpacer.swift */,
@@ -139,8 +137,6 @@
 				DAB4F308239F184500BA522C /* ImageAspectRatio.swift */,
 				DAB4F306239F097D00BA522C /* ImageResizable.swift */,
 				DAE2D567239DC0980077A1D8 /* TextKerning.swift */,
-				DAE2D55B239DA1090077A1D8 /* Text-decorationModifiers.swift */,
-				DAE2D55D239DA9780077A1D8 /* Text-fontWeight.swift */,
 				DAB4F30E23A0941900BA522C /* StacksZStack.swift */,
 				DA9C9CA5239305E800BD05D4 /* AppDelegate.swift */,
 				DA9C9CA7239305E800BD05D4 /* SceneDelegate.swift */,
@@ -314,6 +310,7 @@
 				DA9C9CA6239305E800BD05D4 /* AppDelegate.swift in Sources */,
 				DAB4F30B23A07F0200BA522C /* StacksVStackHStack.swift in Sources */,
 				DA9C9CA8239305E800BD05D4 /* SceneDelegate.swift in Sources */,
+				D2B9584723AEED74006AE948 /* FormStepper.swift in Sources */,
 				DAB4F307239F097D00BA522C /* ImageResizable.swift in Sources */,
 				DABA6C5723A874D400324041 /* FormPicker1.swift in Sources */,
 				DAB7DCA723A3169F00FA440D /* FormToggle.swift in Sources */,
@@ -324,6 +321,7 @@
 				DA50D921239F03B300C121CD /* Playground.swift in Sources */,
 				DAE2D566239DBEC00077A1D8 /* TextTracking.swift in Sources */,
 				DAE2D568239DC0980077A1D8 /* TextKerning.swift in Sources */,
+				D2B9584523AED49B006AE948 /* FormSecureField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

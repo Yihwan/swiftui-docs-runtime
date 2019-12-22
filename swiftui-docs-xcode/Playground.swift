@@ -9,19 +9,8 @@
 import SwiftUI
 
 struct Playground: View {
-    @State private var selectedIdx = 1
-    @State private var options = ["Option 1", "Option 2", "Option 3"]
-
     var body: some View {
-        Form {
-            Section(header: Text("Segmented Picker Style (iOS 13)")) {
-                Picker(selection: $selectedIdx, label: Text("I'm a Picker in a Form")) {
-                    ForEach(0 ..< options.count) {
-                        Text(self.options[$0])
-                    }
-                }.pickerStyle(SegmentedPickerStyle())
-            }           
-        }
+        Text("ASD")
     }
 }
 

@@ -28,10 +28,10 @@ var body: some View {
                     ForEach(0 ..< options.count) { index in
                         Text(self.options[index])
                     }
-//                        Can also do:
-//                        ForEach(0 ..< options.count) {
-//                            Text(self.options[$0])
-//                        }
+                    //                        Can also do:
+                    //                        ForEach(0 ..< options.count) {
+                    //                            Text(self.options[$0])
+                    //                        }
                 }
             }
             
